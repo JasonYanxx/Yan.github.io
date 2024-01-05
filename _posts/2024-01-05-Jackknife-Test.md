@@ -3,6 +3,7 @@ title: Jackknife Test
 navtitle: Jackknife Test
 author: Penggao Yan
 layout: post
+icon: fa-lightbulb-o
 ---
 
 Lorem ipsum dolor sit amet, harum malorum nominavi mea et. Atqui maluisset duo cu, summo dignissim voluptatum sit ut. Ad quo quidam delicatissimi. Cum nihil noster patrioque id. Per at maiorum definitiones. Cu vix sint aliquip. No duo alia sale persecuti.
