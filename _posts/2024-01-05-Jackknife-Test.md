@@ -1,5 +1,5 @@
 ---
-title: Second Post
+title: Jackknife Test
 author: Chris
 layout: post
 ---
