@@ -1,6 +1,6 @@
 ---
-title: Second Post
-author: Chris
+title: Subspace-based Adaptive GMM Error Modeling for Fault-Aware Vehicular GNSS Positioning in Urban Canyons
+author: Penggao Yan
 layout: post
 ---
 
