@@ -1,6 +1,6 @@
 ---
 title: Jackknife Test
-author: Chris
+author: Penggao Yan
 layout: post
 ---
 
