@@ -1,5 +1,6 @@
 ---
-title: Jackknife Test
+title: Jackknife Test 
+navtitle: Jackknife Test
 author: Penggao Yan
 layout: post
 ---

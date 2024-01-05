@@ -1,5 +1,6 @@
 ---
 title: Subspace-based Adaptive GMM Error Modeling for Fault-Aware Vehicular GNSS Positioning in Urban Canyons
+navtitle: Subspace Adaptive GMM
 author: Penggao Yan
 layout: post
 ---

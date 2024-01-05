@@ -10,7 +10,7 @@
     {%- unless _pages == null -%}
       {%- assign _pages = _pages | sort: 'order' -%}
       {%- for _page in _pages -%}
-        {%- assign _title = _page.navtitle | default: _page.layout -%}
+        {%- assign _title = _pagetitle | default: _page.layout -%}
         {%- assign _slug = _title | slugify -%}
         {%- assign _icon = _page.icon | default: 'fa-link' -%}
         {%- comment -%}<!-- page.url (no underscore) is the url of the current page-->{%- endcomment -%}
@@ -31,10 +31,11 @@
     {%- if _pages[0] and _sections[0] -%}<hr>{%- endif -%}
     {%- unless _sections == null -%}
       {%- for _sect in _sections -%}
-        {%- assign _title = _sect.navtitle | default: _sect.layout | default: 'Untitled' -%}
+        {%- assign _title = _sect.title  | default: _sect.layout | default: 'Untitled' -%}
+        {%- assign _navtitle = _sect._navtitle -%}
         {%- assign _slug = _title | slugify -%}
         {%- assign _icon = _sect.icon | default: 'fa-file' -%}
-        <li><a href="#{{- _slug -}}" id="{{- _slug -}}-link" class="scrolly"><span class="icon {{ _icon }}">{{- _title -}}</span></a></li>
+        <li><a href="#{{- _slug -}}" id="{{- _slug -}}-link" class="scrolly"><span class="icon {{ _icon }}">{{- _navtitle -}}</span></a></li>
       {%- endfor -%}
     {%- endunless -%}
   </ul>
