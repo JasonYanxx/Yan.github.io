@@ -45,10 +45,10 @@ url: "" # the base hostname & protocol for your site
 
 # Social settings
 facebook_url:
-github_url:
+github_url: https://github.com/JasonYanxx
 googleplus_url:
 instagram_url:
-linkedin_url:
+linkedin_url: www.linkedin.com/in/penggao-yan-327239226
 pinterest_url:
 slack_url:
 twitter_url:

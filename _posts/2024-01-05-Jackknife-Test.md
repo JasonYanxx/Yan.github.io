@@ -1,6 +1,6 @@
 ---
-title: Jackknife Test 
-navtitle: Jackknife Test
+title: Fault detection for pseudorange-based positioning systems under Non-Gaussian Noises - A Rigorous Approach
+navtitle: FDE-JK
 author: Penggao Yan
 layout: post
 icon: fa-lightbulb-o
