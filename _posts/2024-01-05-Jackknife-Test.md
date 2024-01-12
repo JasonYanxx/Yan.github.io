@@ -6,6 +6,7 @@ layout: post
 icon: fa-lightbulb-o
 ---
 
-<span class="image fit"><img src="{{ 'assets/images/Jackknife-cover.jpg' | relative_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ 'assets/images/SS_JK_compare.jpg' | relative_url }}" alt="" /></span>
+Contour plot of the detection rate of (a) the solution separation detector and (b) the proposed detector with non-Gaussian distributed nominal errors.
 
-
+- **statues**: on going
